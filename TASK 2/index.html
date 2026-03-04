@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <!--BOX ICONS-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="header1">
+      <nav class="nav bd_grid">
+        <div>
+          <a href="#" class="nav_logo">VANSHIKA</a>
+        </div>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#" class="nav_link active">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">About Me</a>
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">Skills</a>
+            </li>
+            <li class="nav_item">
+              <a href="#projects" class="nav_link">Projects</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main1">
+      <!--HOME-->
+      <section class="home bd-grid" id="home">
+        <div class="home_data">
+          <h1 class="home_title">
+            Hi, <br />
+            I'm <span class="home_title_color"> Vanshika</span>
+          </h1>
+          <h2 class="home_subtitle">Aspiring Web Developer | CSE Student</h2>
+          <a href="assets/VANSHIKA_Resume.pdf" class="button">Resume</a>
+        </div>
+        <div class="home_image">
+          <img src="assets/my_photo.jfif" alt="my photo" />
+        </div>
+      </section>
+      <!--ABOUT-->
+      <section class="about section" id="about">
+        <h2 class="section_title">About Me</h2>
+        <div class="about_container bd-grid">
+          <p class="about_text">
+            I am a dedicated Computer Science student currently pursuing my
+            B.Tech in Computer Science & Engineering. I have a strong interest
+            in web development and enjoy building responsive, user-friendly
+            interfaces using HTML, CSS, and JavaScript. Through hands-on
+            practice and project-based learning, I have developed foundational
+            skills in front-end development and version control using GitHub. I
+            am continuously working to improve my problem-solving abilities and
+            deepen my understanding of core programming concepts, including
+            Object-Oriented Programming and Java. I believe in learning by
+            doing, and I actively challenge myself by building projects that
+            strengthen both my technical and analytical skills. My goal is to
+            grow as a developer by gaining practical experience and contributing
+            meaningfully to real-world projects.
+          </p>
+        </div>
+      </section>
+      <!--SKILLS-->
+      <section class="skills section" id="skills">
+        <h2 class="section_title">Skills</h2>
+        <div class="skills_block">
+          <h3 class="skills_subtitle">Professional Skills</h3>
+          <div class="skills_container bd-grid">
+            <!-- Skill Card -->
+            <div class="skill_card">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                alt="C++ Logo"
+                class="skill_logo"
+              />
+              <h3 class="skill_name">C++ Programmer</h3>
+            </div>
+            <div class="skill_card">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                alt="C Programming Logo"
+                class="skill_logo"
+              />
+
+              <h3 class="skill_name">C Programmer</h3>
+            </div>
+            <div class="skill_card">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                alt="HTML5 Logo"
+                class="skill_logo"
+              />
+              <h3 class="skill_name">HTML5</h3>
+            </div>
+            <div class="skill_card">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                alt="CSS3 Logo"
+                class="skill_logo"
+              />
+              <h3 class="skill_name">CSS3</h3>
+            </div>
+            <div class="skill_card">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                alt="JavaScript Logo"
+                class="skill_logo"
+              />
+              <h3 class="skill_name">JavaScript</h3>
+            </div>
+          </div>
+        </div>
+        <!-- Tools -->
+        <div class="tools_block">
+          <h3 class="skills_subtitle">Tools</h3>
+          <div class="tools_container">
+            <div class="skill_card">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                alt="VS Code Logo"
+                class="skill_logo"
+              />
+              <h3 class="skill_name">VS Code</h3>
+            </div>
+            <div class="skill_card">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt="GitHub Logo"
+                class="skill_logo"
+              />
+              <h3 class="skill_name">GitHub</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="projects section" id="projects">
+        <h2 class="section_title">Projects</h2>
+
+        <div class="projects_container">
+          <!-- Project 1 -->
+          <div class="project_card">
+            <img
+              src="assets/img_project1.png"
+              alt="Landing Page Preview"
+              class="project_image"
+            />
+
+            <div class="project_content">
+              <h3 class="project_title">Responsive Landing Page</h3>
+
+              <p class="project_description">
+                This project is a fully responsive landing page designed using
+                HTML, CSS, and basic JavaScript. The layout adapts seamlessly
+                across different screen sizes using Flexbox, CSS Grid, and media
+                queries.
+              </p>
+
+              <p class="project_tech">
+                <strong>Tech:</strong> HTML5 | CSS3 | JavaScript | VS Code
+              </p>
+
+              <div class="project_buttons">
+                <a
+                  href="https://vanshika993.github.io/OIBSIP/TASK 1/"
+                  class="project_btn"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/vanshika993/OIBSIP/tree/main/TASK%201"
+                  class="project_btn outline"
+                  target="_blank"
+                  >View Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project_card">
+            <img
+              src="assets/img_project2.png"
+              alt="Temperature Converter Preview"
+              class="project_image"
+            />
+
+            <div class="project_content">
+              <h3 class="project_title">
+                Temperature Converter Web Application
+              </h3>
+
+              <p class="project_description">
+                A simple and interactive temperature conversion tool built using
+                HTML, CSS, and JavaScript. Users can convert values between
+                Celsius, Fahrenheit, and Kelvin in real-time.
+              </p>
+
+              <p class="project_tech">
+                <strong>Tech:</strong> HTML5 | CSS3 | JavaScript | VS Code
+              </p>
+
+              <div class="project_buttons">
+                <a
+                  href="https://vanshika993.github.io/OIBSIP/TASK 3/"
+                  class="project_btn"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/vanshika993/OIBSIP/tree/main/TASK%203"
+                  class="project_btn outline"
+                  target="_blank"
+                  >View Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section_title">Contact Me</h2>
+
+        <div class="contact_container">
+          <form
+            action="https://formsubmit.co/vanshikarajput214@gmail.com"
+            method="POST"
+            class="contact_form"
+          >
+            <div class="input_group">
+              <i class="bx bx-user"></i>
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                autocomplete="name"
+                required
+              />
+            </div>
+
+            <div class="input_group">
+              <i class="bx bx-envelope"></i>
+              <input
+                type="email"
+                name="email"
+                placeholder="Email ID"
+                autocomplete="email"
+                required
+              />
+            </div>
+
+            <div class="input_group textarea_group">
+              <i class="bx bx-message"></i>
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Message"
+                autocomplete="off"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="contact_button">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <h3 class="footer_title">Vanshika</h3>
+
+      <div class="footer_social">
+        <a href="https://github.com/vanshika993" class="footer_icon"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/vanshika-90215439b/"
+          class="footer_icon"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="mailto:vanshikarajput214@gmail.com" class="footer_icon"
+          ><i class="bx bx-envelope"></i
+        ></a>
+      </div>
+
+      <p class="footer_copy">© 2026 Vanshika. All rights reserved.</p>
+    </footer>
+
+    <!--SCROLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--MAIN JS-->
+    <script src="main.js"></script>
+  </body>
+</html>
